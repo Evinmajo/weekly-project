@@ -1,0 +1,425 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+} 
+
+.animation{
+    background-color: rgb(14, 14, 67);
+    color: white;
+    padding: 10px;
+}
+#nav{
+  display: flex;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(43, 41, 41);
+  
+}
+.form{
+  padding: 1%;
+  margin-right: 3%;
+}
+select{
+  border-left: 3px;
+  border-top: 2px;
+  border-bottom: 2px;
+  border-left: 2px;
+  color: white;
+  background-color: rgb(43, 41, 41);
+  
+}
+.delivery{
+  font-size: 15px;
+}
+.address{
+  color: white;
+}
+.links{
+  margin-top: .5%;
+  margin-left: 50%;
+}
+#a{
+  border-right:1px solid white ;
+  margin-right: 7px;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.cartbag{
+  border-left: 1px solid white;
+  padding-left: 8px;
+}
+
+.ul{
+    margin-right: 30%;
+}
+.nstore{
+    font-size: 10px;
+}
+.Express{
+    margin-left: 10px;
+    
+    
+}
+.carousel-item{
+    height: 100%;
+    width: 100%;
+}
+img{
+    object-fit: cover;
+    
+}
+.select{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    padding-bottom: 8%;
+}
+.circlei{
+    border: 1px solid;
+    width: 200px; /* Adjust size as needed */
+  height: 200px; /* Should be equal to width for a perfect circle */
+  background-color: #3498db; /* Color of the circle */
+  border-radius: 100%;
+  align-items: center;
+  text-align: center;
+  font-size: 25px;
+    
+}
+#circlei{
+    height: 100%;
+    width: 100%;
+    border-radius: 100%;
+}
+#qr{
+    width: 200px;
+    height: 180px;
+    
+}
+.qr{
+    overflow-x: hidden;
+    display: flex;
+    background-color: bisque;
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+.leftqr{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.playstore{
+    display: flex;
+}
+#headcollection{
+    text-align: center;
+    margin-top: 30px;
+}
+#headcollection1{
+    text-align: center;
+  
+}
+.links3{
+    display: flex;
+    justify-content: center;
+}
+#colectiona{
+    padding-left:15px;
+    text-decoration: none;
+}
+.carousel-item {
+    text-align: center; /* Center content within each slide */
+  }
+  .carousel-item img {
+    max-width: 100%; /* Ensure images don't overflow the carousel */
+    max-height: 100%;
+    margin: auto; /* Center images horizontally */
+  }
+  .card-container {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  /* Basic styling for each card */
+  .card {
+    min-width: 400px; /* Flex-grow, flex-shrink, flex-basis */
+    height: 500px; /* Adjust height as needed */
+    position: relative;
+    margin: 10px;
+  }
+  
+  /* Overlay content */
+  .card-content {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background-color: white
+  }
+  
+  /* Heading */
+  .card-content h2 {
+    margin: 0;
+    font-size: 24px;
+    text-align: center;
+  }
+  .outer{
+    position: relative;
+  }
+  .inner{
+    height: 250px;
+    width: 800px;
+    border-radius: 20px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: rgb(245, 239, 233);
+    text-align: center;
+    padding: 40px
+  }
+  .shirtlogo1{
+    width: 60%;
+    height: 700px;
+    margin-left: 50px;
+  }
+  .shirtlogo2{
+    width: 40%;
+    height: 700px;
+  }
+  .rowbuttons{
+    margin-top: 3%;
+  }
+  #rowbuttons1{
+    padding: 10px;
+    padding-left: 100px ;
+    padding-right: 100px ;
+    margin-right: 6%;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+  }
+  #rowbuttons2{
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+  }
+  #rowbuttons3{
+    padding: 10px;
+    padding-left: 48px;
+    padding-right: 48px;
+    margin-right: 6%;
+    margin-top: 3%;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+  }
+  #rowbuttons4{
+    padding: 10px;
+    margin-top: 3%;
+    padding-left: 92px;
+    padding-right: 92px;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 10px;
+  }
+  .scrolling{
+    overflow-x: hidden;
+    background-color: rgb(5, 5, 91);
+  }
+  #trendingstyles{
+    text-align: center;
+    color: yellow;
+    padding: 20px;
+  }
+.catagory{
+    text-align: center;
+    padding-bottom: 20px;
+}
+#catagory{
+    color: white;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+.card2-container {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-around; /* Adjust as needed */
+    overflow-x: scroll;
+  }
+  
+  /* Basic styling for each card */
+  .card2 {
+    min-width: 310px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    margin: 10px;
+    
+  }
+  
+  /* Image styling */
+  .card2 img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    transition: transform 0.3s ease; /* Optional: Add smooth hover effect */
+  }
+
+.leftscrolls{
+    display: flex;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+   
+}
+.leftimage{
+    
+    border-radius: 0px 0px 20px 20px;
+    margin-left: 8%;
+    background-color: rgb(16, 16, 49);
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.card3-container {
+    display: flex;
+    padding-left: 100px;
+    justify-content: space-around; /* Adjust as needed */
+    overflow-x: scroll;
+  }
+  
+  /* Basic styling for each card */
+  .card3 {
+    min-width: 310px; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    margin: 10px;
+    
+  }
+  
+  /* Image styling */
+  .card3 img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    transition: transform 0.3s ease; /* Optional: Add smooth hover effect */
+  }
+  .boxtext{
+    height: 330px;
+    width: 600px;
+    position: absolute;
+    top: 45%;
+    left: 55%;
+    background-color: rgb(250, 250, 5);
+    border-radius: 10px;
+  }
+  #imagebackground{
+    
+    width: 100%; 
+    height: 70%; 
+    object-fit: cover; 
+    margin-top: 4%;
+  }
+  .imagebackground{
+  position: relative;
+}
+.refer{
+    
+    background-color: rgb(16, 16, 49) ;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    height: 100px;
+    width: 100%;
+}
+.div1{
+    margin-top: 5%;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.stud2{
+    text-align: center;
+}
+.stud3{
+    margin-top: 3%;
+    background-color: transparent;
+}
+.stud3 {
+  background-size: cover;
+  height: 100px;
+}
+.input1 {
+  background: rgba(255,255,255,0.4);
+  display: block;
+  outline: none;
+  width: 400px;
+  height: 50px;
+  top: 250px;
+  margin: 0 auto;
+  padding: 10px;
+  color: #333;
+  border-radius: 10px;
+  border: 1px solid rgba(0,0,0,0.5);
+}
+
+
+.ref{
+    margin-top: 10%;
+    color: black;
+    
+}
+.switch{
+    background-color: #032b6b;
+    color: white;
+    padding: 15px 10%;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    margin-left: 30%;
+    margin-bottom: 3%;
+}
+.footer{
+  display: flex;
+  justify-content: space-evenly;
+}
+.needhelp{
+  margin-right: 100px;
+}
+footer{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  padding-right: 10%;
+  border-bottom: 1px solid rgb(222, 221, 221);
+  border-top: 1px solid rgb(222, 221, 221);
+  font-size: small;
+}
+
+.input2{
+    border-top: 1px; 
+    border-left: 1px; 
+    border-right: 1px; 
+    height: 20px; 
+    width: 400px; 
+    padding: 20px; 
+    margin-top: 10px;
+}
+.grad {
+  background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  height: 10px;
+  width: 100%;
+}
